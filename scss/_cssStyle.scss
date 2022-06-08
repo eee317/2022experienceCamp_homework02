@@ -1,0 +1,119 @@
+.primary {
+  background-color: $primary;
+}
+.danger {
+  background-color: $danger;
+}
+.secondary {
+  background-color: $secondary-bg;
+}
+.btn {
+  padding: 10px 32px;
+  color: #fff;
+  border-radius: 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+.none {
+  display: none;
+}
+.logo {
+  background-image: url('https://github.com/hexschool/webLayoutTraining1st/blob/master/chatTalker_images/logo.png?raw=true');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 211px;
+}
+.text-left {
+  text-align: left;
+}
+.text-primary {
+  color: $primary;
+}
+.text-secondary {
+  color: $secondary;
+  text-align: center;
+}
+.text-bold {
+  font-weight: bold;
+}
+.text-line-height {
+  line-height: 1.5;
+}
+.text-center {
+  text-align: center;
+}
+.text-title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 8px 0px;
+}
+.top {
+  position:fixed;
+  right: 2%;
+  top: 80%;
+  border-radius: 50px;
+  color: #fff;
+  padding: 30px 25px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+h4 {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 24px 0px;
+  text-align: center;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.margin-b-16 {
+  margin-bottom: 16px;
+}
+.margin-b-24 {
+  margin-bottom: 24px;
+}
+.margin-b-28 {
+  margin-bottom: 28px;
+}
+.margin-b-48 {
+  margin-bottom: 48px;
+}
+.margin-b-84 {
+  margin-bottom: 84px;
+}
+.margin-b-100 {
+  margin-bottom: 100px;
+}
+
+.pages {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.page {
+  margin: 4px;
+  width: 10px;
+  height: 10px;
+  background-color: #DDDDDD;
+  border-radius: 10px;
+}
+.page-active {
+  background-color: #FFD153;
+  width: 16px;
+}
+.footer-content {
+  padding: 28px;
+}
